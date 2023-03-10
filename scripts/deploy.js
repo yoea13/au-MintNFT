@@ -13,7 +13,7 @@ async function main() {
   // update the IPFS CID to be your metadata CID
   await nft.safeMint(
     await signer0.getAddress(),
-    "ipfs://QmZ4vHVX812i5qhdwsLXZHMXHHS2GRXQYRAx4Mc8RzRVeU"
+    "ipfs://QmSvaciBEwyy8Ki4MWu7FK6C9pjnu8F2NdFyBZ1ssR9kqC"
   );
 
   console.log("NFT Minted!");
